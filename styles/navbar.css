@@ -1,0 +1,23 @@
+#searchbar {
+  width: 80%;
+  margin: 10px auto;
+}
+input {
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: medium;
+}
+#categories {
+  display: flex;
+  justify-content: space-evenly;
+}
+#categories h3 {
+  border: 1px solid teal;
+  border-radius: 10px;
+  padding: 10px;
+}
+#categories h3:hover {
+  background-color: rgb(169, 245, 245);
+  cursor: pointer;
+}
